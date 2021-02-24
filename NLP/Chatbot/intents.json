@@ -1,0 +1,125 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you?",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up?",
+                "Sup",
+                "Good Morning",
+                "Good Afternoon",
+                "Good Evening"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hello, thanks for your patronage",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?",
+                "Hello, welcome :-)"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later", 
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day!",
+                "Bye! Come back again soon :-)",
+                "Thanks for your patronage.",
+                "Thank you for your time",
+                "Thank you for stopping by :-)",
+                "Thanks! See Ya"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That is helpful",
+                "Thanks a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure :-)"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kind of goods are there?",
+                "What do you sell?",
+                "What do you do?"
+            ],
+            "responses": [
+                "We sell coffee and tea",
+                "We sell clothes",
+                "We have coffee and tea",
+                "We have clothes",
+                "We sell shoes and sandals",
+                "We have shoes and sandals",
+                "We sell phones and accessories",
+                "We have phones and accessories",
+                "We offer services on Machine Learning and AI"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take cash only?",
+                "Do you take credit cards?",
+                "What is your mode of payment?",
+                "How do I make payments?",
+                "How do I pay?",
+                "Do you accept MasterCard?",
+                "Do you accept Visa?",
+                "Do you accept Verve?",
+                "Are you cash only?",
+                "Can I make transfers?"
+            ],
+            "responses": [
+                "We accept Visa, Verve and MasterCards",
+                "We accept most major Credit cards and paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "How do I get my delivery?",
+                "How soon can I get the delivery?",
+                "How soon can I get the item?"
+            ],
+            "responses": [
+                "Delivery takes 2-4 business days",
+                "Shipping takes 5-6 business days"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke",
+                "Say something funny",
+                "Can you tell a joke?"
+            ],
+            "responses": [
+                "What did the buffalo say when his son left for school?, Bison!",
+                "Why did the man working at the calendar factory get fired? He took a day off!",
+                "What did Heaven say to Earth? You piece of dirt!"
+            ]
+        }
+    ]
+}
