@@ -3,7 +3,7 @@ def prepare_train_data():
     import numpy as np
     import json
     from nltk.corpus import stopwords
-    from nltk_utils import tokenize, stem, convert_and_pad, convert_and_pad
+    from nltk_utils import tokenize, stem, convert_and_pad
 
     with open( "intents.json", "r" ) as f:
         data = json.load( f )
@@ -34,7 +34,7 @@ def prepare_train_data():
         X_train.append( bag_of_words )
 
         label = tags.index( tag )
-        y_train.append( label )
+        y_train.append( float(label) )
     y_train = np.array( y_train )
     
     ## Testing fuction/
