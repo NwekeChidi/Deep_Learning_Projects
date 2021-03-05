@@ -17,8 +17,9 @@
             ],
             "responses": [
                 "Hey :-)",
-                "Hello, thanks for visiting",
-                "Hello, thanks for your patronage",
+                "Hello, welcome to our store",
+                "Hello, welcome!",
+                "Goodday! How may I be of service?",
                 "Hi there, what can I do for you?",
                 "Hi there, how can I help?",
                 "Hello, welcome :-)"
@@ -113,12 +114,44 @@
             "patterns": [
                 "Tell me a joke",
                 "Say something funny",
-                "Can you tell a joke?"
+                "Can you tell a joke?",
+                "Can you be funny?"
             ],
             "responses": [
                 "What did the buffalo say when his son left for school?, Bison!",
                 "Why did the man working at the calendar factory get fired? He took a day off!",
                 "What did Heaven say to Earth? You piece of dirt!"
+            ]
+        },
+        {
+            "tag": "no category 1",
+            "patterns": [
+                "Help me",
+                "Can you help me?",
+                "you can attend to me right?",
+                "can you solve my problem?",
+                "what else can you do?"
+            ],
+            "responses": [
+                "Depends on what you need..",
+                "What can I help you with?",
+                "I am here to assist you",
+                "I am at your service"
+            ]
+        },
+        {
+            "tag": "no category 2",
+            "patterns": [
+                "I love you",
+                "Can you be my friend?",
+                "I am lonely",
+                "I need a friend",
+                "I need company"
+            ],
+            "responses": [
+                "I have a deep regard for you as well",
+                "But I am just a block of code",
+                "I understand 'lonely', but now, you are here"
             ]
         }
     ]
