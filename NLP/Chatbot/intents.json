@@ -26,11 +26,15 @@
             ]
         },
         {
-            "tag": "goodbye",
+            "tag": "adieu",
             "patterns": [
                 "Bye",
                 "See you later", 
-                "Goodbye"
+                "Goodbye",
+                "Good Bye",
+                "Bye Bye",
+                "See ya",
+                "Ciao"
             ],
             "responses": [
                 "See you later, thanks for visiting",
@@ -39,11 +43,12 @@
                 "Thanks for your patronage.",
                 "Thank you for your time",
                 "Thank you for stopping by :-)",
-                "Thanks! See Ya"
+                "Thanks! See Ya",
+                "Ciao"
             ]
         },
         {
-            "tag": "thanks",
+            "tag": "grateful",
             "patterns": [
                 "Thanks",
                 "Thank you",
@@ -65,13 +70,10 @@
                 "What do you do?"
             ],
             "responses": [
-                "We sell coffee and tea",
-                "We sell clothes",
+                "We sell coffee and tea.\n\tWe sell clothes. \n\tWe sell shoes and sandals\n\t andWe sell phones and accessories",
                 "We have coffee and tea",
                 "We have clothes",
-                "We sell shoes and sandals",
                 "We have shoes and sandals",
-                "We sell phones and accessories",
                 "We have phones and accessories",
                 "We offer services on Machine Learning and AI"
             ]
@@ -118,9 +120,9 @@
                 "Can you be funny?"
             ],
             "responses": [
-                "What did the buffalo say when his son left for school?, Bison!",
-                "Why did the man working at the calendar factory get fired? He took a day off!",
-                "What did Heaven say to Earth? You piece of dirt!"
+                "Haha! Ok, here goes one.... \n\tWhat did the buffalo say when his son left for school?, Bison!",
+                "Haha! Ok, \n\tWhy did the man working at the calendar factory get fired? He took a day off!",
+                "Haha! Ok, \n\tWhat did Heaven say to Earth? You piece of dirt!"
             ]
         },
         {
@@ -146,12 +148,18 @@
                 "Can you be my friend?",
                 "I am lonely",
                 "I need a friend",
-                "I need company"
+                "I like you",
+                "I need company",
+                "Marry me"
             ],
             "responses": [
+                "I love you too",
+                "Of course! We can be best friends for ever!....",
+                "I understand 'lonely', but now, you are here",
+                "I can be your friend",
                 "I have a deep regard for you as well",
-                "But I am just a block of code",
-                "I understand 'lonely', but now, you are here"
+                "Oh, you are with the right ...... person? \n\t\t\tAm I a person?...... \n\t\t\tWell.... I am good company for sure",
+                "But I am just a block of code"
             ]
         }
     ]
