@@ -39,6 +39,7 @@ while True:
         break
 
     sentence = tokenize( sentence )
+    sentence = [ s_w.lower() for s_w in sentence ]
     sentence = convert_and_pad( all_words, sentence )
     sentence.reshape( 1, sentence.shape[0] )
     sentence = torch.from_numpy( sentence )
@@ -55,9 +56,19 @@ while True:
     # probs = torch.softmax( output, dim=0 )
     # prob = probs[ 0 ][ prediction.item() ]
 
-    if ps > 0.75:
+    if ps >= 0.65:
         for intent in intents[ "intents" ]:
             if tag == intent[ "tag" ]:
                 print( f"{bot_name}: {random.choice(intent['responses'])}" )
+                    
     else:
+        print("Probability: ", ps)
         print( f"{bot_name}: {random.choice( response_1 )}" )
+        
+        
+
+        
+"""##@Version control log
+    
+    1. added lines to print out the prediction probabilities
+    """
