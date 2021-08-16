@@ -18,6 +18,7 @@ def prepare_train_data():
         
         for pattern in d_point[ "patterns" ]:
             word = tokenize( pattern )
+            word = [ s_w.lower() for s_w in word ]
             all_words.extend( word )
             x_y.append( (word, tag) )
 
