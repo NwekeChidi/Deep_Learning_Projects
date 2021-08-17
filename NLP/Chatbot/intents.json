@@ -70,7 +70,7 @@
                 "What do you do?"
             ],
             "responses": [
-                "We sell coffee and tea.\n\tWe sell clothes. \n\tWe sell shoes and sandals\n\t andWe sell phones and accessories",
+                "We sell coffee and tea.\n\tWe sell clothes.\n\tWe sell shoes and sandals\n\tand We sell phones and accessories",
                 "We have coffee and tea",
                 "We have clothes",
                 "We have shoes and sandals",
@@ -128,6 +128,7 @@
         {
             "tag": "no category 1",
             "patterns": [
+                "I need your help",
                 "Help me",
                 "Can you help me?",
                 "you can attend to me right?",
@@ -158,7 +159,7 @@
                 "I understand 'lonely', but now, you are here",
                 "I can be your friend",
                 "I have a deep regard for you as well",
-                "Oh, you are with the right ...... person? \n\t\t\tAm I a person?...... \n\t\t\tWell.... I am good company for sure",
+                "Oh, you are with the right ...... person? \n\tAm I a person?...... \n\tWell.... I am good company for sure",
                 "But I am just a block of code"
             ]
         }
