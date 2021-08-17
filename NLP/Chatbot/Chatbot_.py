@@ -56,13 +56,12 @@ while True:
     # probs = torch.softmax( output, dim=0 )
     # prob = probs[ 0 ][ prediction.item() ]
 
-    if ps >= 0.65:
+    if ps >= 0.75:
         for intent in intents[ "intents" ]:
             if tag == intent[ "tag" ]:
                 print( f"{bot_name}: {random.choice(intent['responses'])}" )
                     
     else:
-        print("Probability: ", ps)
         print( f"{bot_name}: {random.choice( response_1 )}" )
         
         
