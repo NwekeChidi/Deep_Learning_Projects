@@ -24,7 +24,7 @@ class ChatbotApp:
     def _setup_main_window( self ):
         self.window.title( "Chat With Me :-)" )
         self.window.resizable( width=TRUE, height=False )
-        self.window.configure( width=470, height=550, bg=BG_COLOR )
+        self.window.configure( width=470, height=520, bg=BG_COLOR )
 
         # head label
         head_label = Label( self.window, bg=BG_COLOR, fg=TXT_COLOR,
@@ -52,14 +52,14 @@ class ChatbotApp:
 
         # message box
         self.msg_entry = Entry( button_label, bg="#2C3E50", fg=TXT_COLOR, font=FONT )
-        self.msg_entry.place( relwidth=0.74, relheight=0.06, rely=0.008, relx=0.011 )
+        self.msg_entry.place( relwidth=0.74, relheight=0.03, rely=0.008, relx=0.011 )
         self.msg_entry.focus()
         self.msg_entry.bind( "<Return>", self._on_enter_pressed )
 
         # send button
         send_button = Button( button_label, text="Send", font=FONT_BOLD, width=20,
                                 bg=BG_GRAY, command=lambda: self._on_enter_pressed(None) )
-        send_button.place( relx=0.77, rely=0.008, relheight=0.06, relwidth=0.22 )
+        send_button.place( relx=0.77, rely=0.008, relheight=0.03, relwidth=0.223 )
 
     def _on_enter_pressed( self, event ):
         msg = self.msg_entry.get()
